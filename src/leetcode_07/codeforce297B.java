@@ -42,6 +42,7 @@ public class codeforce297B {
             }
             out.println("NO");
         }
+        out.println("123");
         out.close();
     }
 }
