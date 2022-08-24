@@ -23,6 +23,7 @@ public class Demo7 {
             System.out.println("Thread2 is running");
         });
         thread2.start();
+        thread2.join();
         System.out.println("end");
     }
 }
