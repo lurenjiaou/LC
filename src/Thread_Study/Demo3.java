@@ -16,6 +16,7 @@ class Demo3 implements Callable<Integer> {
         // 使⽤
         ExecutorService executor = Executors.newCachedThreadPool();
         Future<Integer> result = executor.submit(new Demo3());
+        ThreadGroup g = new ThreadGroup("group1");
         System.out.println(result.get());
     }
 }
